@@ -1,13 +1,12 @@
 body {
-  font-size: 16px;
-  color: #e5e0e0;
-  background-image: linear-gradient(to bottom, #655d8a 30%, #7897ab 70%);
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
+    font-size: 16px;
+    color: #E5E0E0;
+    background-image: linear-gradient(to top,#203165 10%, #10182e 50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
 }
-
 section {
   padding: 50px 10px;
   display: flex;
