@@ -25,6 +25,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 60px;
 }
 
 .todoInput {
@@ -102,4 +103,15 @@ form {
 img {
   pointer-events: none;
   width: 20px;
+}
+.err-msg {
+  display: none;
+  font-weight: bolder;
+  color: white;
+  margin-left: 70px;
+}
+li {
+  list-style-type: none;
+  padding-left: 20px;
+  text-transform: capitalize;
 }
