@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 body {
   font-size: 16px;
   color: #e5e0e0;
   background-image: linear-gradient(to bottom, #655d8a 30%, #7897ab 70%);
-  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  display: flex; 
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
@@ -46,9 +50,8 @@ form {
   color: #f6f7f8;
   border: none;
   outline: none;
-
 }
-*/ .todos {
+.todos {
   padding: 15px 0px;
   list-style: none;
 }
