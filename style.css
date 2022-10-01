@@ -30,7 +30,25 @@ form {
   align-items: center;
   margin-left: 60px;
 }
+.toggle-dark{
+  display: block;
+  width: 100px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+}
+.dark-mode{
+  background-image: linear-gradient(to bottom, #403f42 30%, #1b80c3 70%);
+  color: red;
+}
+.toggle-dark:hover {background-color: #8e3e75}
 
+.toggle-dark:active {
+  background-color: #b736d4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .todoInput {
   height: 45px;
   padding: 1px 20px;
