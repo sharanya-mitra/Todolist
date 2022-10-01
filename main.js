@@ -58,3 +58,8 @@ function deleteCheck(e) {
     open.classList.toggle("completed");
   }
 }
+
+function dark(){
+ var elem= document.body;
+elem.classList.toggle("dark-mode")
+}
