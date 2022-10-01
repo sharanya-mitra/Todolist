@@ -1,6 +1,10 @@
 <centre><img src="images/todo.svg"></centre>
 A straightforward web application, allowing you to save your daily chores so you won't forget anything.
 <br>
+<div align="center">
+
+![Issues](https://img.shields.io/github/issues/pranjay-poddar/Dev-Geeks?color=brightgreen)  ![Pull requests](https://img.shields.io/github/issues-pr/pranjay-poddar/Dev-Geeks)  ![Forks](https://img.shields.io/github/forks/pranjay-poddar/Dev-Geeks)  ![Stars](https://img.shields.io/github/stars/pranjay-poddar/Dev-Geeks)  ![Licence](https://img.shields.io/github/license/pranjay-poddar/Dev-Geeks?color=orange)
+</div>
 <br>
 
 # Features
