@@ -48,7 +48,9 @@ form{
   color: #F6F7F8;
   border: none; 
   outline: none;
-} */
+  cursor:hover;
+}
+
 
 .todos{
   padding: 15px 0px;
