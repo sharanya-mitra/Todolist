@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     color: #E5E0E0;
-    background-image: linear-gradient(to bottom,#655D8A 30%, #7897AB 70%);
+    background-image: linear-gradient(to top,#203165 10%, #10182e 50%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
