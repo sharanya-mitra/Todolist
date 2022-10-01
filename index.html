@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>HTML</title>
-
-  <!-- HTML -->
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML</title>
+    
+    <!-- HTML -->
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
     <section>
       <header>
-        <h3>Sharanya's todo list</h3>
+        <h3 id="main-head">Sharanya's todo list</h3>
       </header>
-
+      
       <form>
         <input type="text" class="todoInput" />
-        <button class="btn add"><img src="./images/plus.png" alt="" /></button>
+        <button class="btn add">
+          Add Todo
+          <i class="fa-solid fa-plus"></i>
+        </button>
       </form>
       <p class="err-msg">Please enter a todo item!</p>
       <div class="todoContainer">
+        <h1>Your Todos</h1>
         <ul class="todos"></ul>
       </div>
     </section>
-  </main>
-
-  <!-- Project -->
-  <script src="main.js"></script>
-</body>
+    <!-- Project -->
+   
+    <script src="main.js"></script>
+  </body>
 
 </html>
