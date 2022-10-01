@@ -7,7 +7,6 @@ body {
   align-items: flex-start;
   height: 100vh;
 }
-
 section {
   padding: 50px 10px;
   display: flex;
@@ -47,6 +46,7 @@ form {
   color: #f6f7f8;
   border: none;
   outline: none;
+
 }
 */ .todos {
   padding: 15px 0px;
@@ -104,6 +104,7 @@ img {
   pointer-events: none;
   width: 20px;
 }
+
 .err-msg {
   display: none;
   font-weight: bolder;
