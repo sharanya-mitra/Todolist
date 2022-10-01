@@ -19,9 +19,13 @@
         <h3>Sharanya's todo list</h3>
       </header>
 
-      <form>
+      <form id="addForm">
         <input type="text" class="todoInput" />
         <button class="btn add"><img src="./images/plus.png" alt="" /></button>
+      </form>
+      <form id="editForm" class="invisible">
+        <input type="text" class="editInput" placeholder="Edit Task" />
+        <button class="add" id="editBtn" type="button"><img src = './images/check.png' ></button>
       </form>
       <p class="err-msg">Please enter a todo item!</p>
       <div class="todoContainer">
