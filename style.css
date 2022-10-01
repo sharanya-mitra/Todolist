@@ -1,35 +1,33 @@
 body {
-    font-size: 16px;
-    color: #E5E0E0;
-    background-image: linear-gradient(to bottom,#655D8A 30%, #7897AB 70%);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
+  font-size: 16px;
+  color: #e5e0e0;
+  background-image: linear-gradient(to bottom, #655d8a 30%, #7897ab 70%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
 }
 
-section{
+section {
   padding: 50px 10px;
   display: flex;
   flex-direction: column;
-  
 }
 
-header h3{
+header h3 {
   text-align: center;
   text-transform: uppercase;
   padding: 15px;
   margin: 10px;
 }
 
-
-form{
+form {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.todoInput{
+.todoInput {
   height: 45px;
   padding: 1px 20px;
   outline-color: #073664;
@@ -40,25 +38,24 @@ form{
   margin-right: 10px;
 }
 
-.add{
+.add {
   padding: 11px 13px;
   text-transform: uppercase;
   font-weight: bolder;
-  background-color: #655D8A;
-  color: #F6F7F8;
-  border: none; 
+  background-color: #655d8a;
+  color: #f6f7f8;
+  border: none;
   outline: none;
-  cursor:hover;
+  cursor: hover;
 }
 
-
-.todos{
+.todos {
   padding: 15px 0px;
   list-style: none;
 }
 
-.todoDiv{
-  background-color:white;
+.todoDiv {
+  background-color: white;
   color: #000;
   font-size: 14px;
   font-weight: bold;
@@ -71,12 +68,12 @@ form{
   border-radius: 20px;
 }
 
-.fish{
+.fish {
   flex: 1;
 }
 
-.done{
-  background-color:transparent;
+.done {
+  background-color: transparent;
   padding: 4px 6px;
   color: #fff;
   border: none;
@@ -84,27 +81,39 @@ form{
   outline: none;
 }
 
-.trash{
-  background-color:transparent;
+.trash {
+  background-color: transparent;
   padding: 4px 6px;
   color: #fff;
   border: none;
   outline: none;
 }
 
-
-.completed{
+.completed {
   text-decoration: line-through;
   opacity: 0.6;
 }
 
-
-.fall{
+.fall {
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
 }
 
-img{
+img {
   pointer-events: none;
   width: 20px;
+}
+
+/* add scroll bar in customized format */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: #bdbacb;
+}
+::-webkit-scrollbar-thumb {
+  background-clip: content-box;
+  border: 3px transparent solid;
+  border-radius: 15px;
+  background-color: #043c76;
 }
