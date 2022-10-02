@@ -3,7 +3,7 @@ A straightforward web application, allowing you to save your daily chores so you
 <br>
 <div align="center">
 
-![Issues](https://img.shields.io/github/issues/pranjay-poddar/Dev-Geeks?color=brightgreen)  ![Pull requests](https://img.shields.io/github/issues-pr/pranjay-poddar/Dev-Geeks)  ![Forks](https://img.shields.io/github/forks/pranjay-poddar/Dev-Geeks)  ![Stars](https://img.shields.io/github/stars/pranjay-poddar/Dev-Geeks)  ![Licence](https://img.shields.io/github/license/pranjay-poddar/Dev-Geeks?color=orange)
+![Issues](https://img.shields.io/github/issues/Rick-mad-lab/Todolist?color=brightgreen)  ![Pull requests](https://img.shields.io/github/issues-pr/Rick-mad-lab/Todolist)  ![Forks](https://img.shields.io/github/forks/Rick-mad-lab/Todolist)  ![Stars](https://img.shields.io/github/stars/Rick-mad-lab/Todolist)  ![Licence](https://img.shields.io/github/license/Rick-mad-lab/Todolist?color=orange)
 </div>
 <br>
 
