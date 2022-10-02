@@ -1,6 +1,10 @@
 <centre><img src="images/todo.svg"></centre>
 A straightforward web application, allowing you to save your daily chores so you won't forget anything.
 <br>
+<div align="center">
+
+![Issues](https://img.shields.io/github/issues/Rick-mad-lab/Todolist?color=brightgreen)  ![Pull requests](https://img.shields.io/github/issues-pr/Rick-mad-lab/Todolist)  ![Forks](https://img.shields.io/github/forks/Rick-mad-lab/Todolist)  ![Stars](https://img.shields.io/github/stars/Rick-mad-lab/Todolist)  ![Licence](https://img.shields.io/github/license/Rick-mad-lab/Todolist?color=orange)
+</div>
 <br>
 
 # Features
