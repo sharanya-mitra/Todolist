@@ -1,9 +1,28 @@
 <centre><img src="images/todo.svg"></centre>
 A straightforward web application, allowing you to save your daily chores so you won't forget anything.
 <br>
+<br>
+<br>
+
+<p align="center">
+<b><a href="https://discord.gg/DDAFdSRu" target="_blank">
+<font size="100"> Be a part of our Community on Discord 🚀</font>
+</a>
+</b>
+<br>
+<br>
+<br>
+
+</p>
 <div align="center">
 
-![Issues](https://img.shields.io/github/issues/Rick-mad-lab/Todolist?color=brightgreen)  ![Pull requests](https://img.shields.io/github/issues-pr/Rick-mad-lab/Todolist)  ![Forks](https://img.shields.io/github/forks/Rick-mad-lab/Todolist)  ![Stars](https://img.shields.io/github/stars/Rick-mad-lab/Todolist)  ![Licence](https://img.shields.io/github/license/Rick-mad-lab/Todolist?color=orange)
+![Pull requests](https://img.shields.io/github/issues-pr/Rick-mad-lab/Todolist)  ![Forks](https://img.shields.io/github/forks/Rick-mad-lab/Todolist)  ![Stars](https://img.shields.io/github/stars/Rick-mad-lab/Todolist)  ![Licence](https://img.shields.io/github/license/Rick-mad-lab/Todolist?color=orange)
+</div>
+<div align="center">
+	
+<a href="https://github.com/Rick-mad-lab/Todolist"><img src="https://sloc.xyz/github/Rick-mad-lab/Todolist" alt="LOC"/></a>
+<a href="https://github.com/Rick-mad-lab/Todolist/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rick-mad-lab/Todolist?color=2b9348"></a>
+<a href="https://github.com/Rick-mad-lab/Todolist/issues"><img src="https://img.shields.io/github/issues/Rick-mad-lab/Todolist" alt="Issues Badge"/></a>
 </div>
 <br>
 
@@ -39,6 +58,13 @@ https://rick-mad-lab.github.io/Todolist/
 <br>
 <br>
 
+<h1 align=center> ✨OUR VALUABLE CONTRIBUTORS✨ </h1>
+<p align="center">
+<a href="https://github.com/Rick-mad-lab/Todolist/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Rick-mad-lab/Todolist" />
+</a>
+</p>
+
 # How to Run the project locally
 To run the project locally,
 
@@ -50,6 +76,7 @@ You'll find the project running in your browser.. Enjoy!
 
 <br>
 <br>
+
 
 # Contributing to this project
 We welcome all kinds of positive contributions helping us to improve and grow the project.
