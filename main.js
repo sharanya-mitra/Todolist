@@ -1,14 +1,20 @@
+const SpeechRecognition = webkitSpeechRecognition;
+const recognition = new SpeechRecognition();
+
 const errorMsg = document.querySelector(".err-msg");
 const todotInput = document.querySelector(".todoInput");
 const editInput = document.querySelector(".editInput");
-const addbtn = document.querySelector(".btn");
+const addbtn = document.querySelector(".btn.add");
+const micbtn = document.querySelector(".btn.mic");
 const editbtn = document.getElementById("editBtn");
 const todos = document.querySelector(".todos");
 const editForm = document.getElementById("editForm");
 const addForm = document.getElementById("addForm");
 
 addbtn.addEventListener("click", addMe);
-todos.addEventListener("click",deleteCheck);
+micbtn.addEventListener("click", voiceNote);
+todos.addEventListener("click", deleteCheck);
+todotInput.addEventListener("keypress", keypressHandler);
 
 function htmlEncode(str) {
   return String(str).replace(/[^\w. ]/gi, function(c) {
@@ -102,3 +108,46 @@ function dark(){
  var elem= document.body;
 elem.classList.toggle("dark-mode")
 }
+
+function keypressHandler(e) {
+  var code = e.keyCode ? e.keyCode : e.which;
+  if (code == 13) {
+    e.preventDefault();
+    addMe(e);
+  }
+}
+
+function voiceNote(e) {
+  e.preventDefault();
+  recognition.start();
+}
+
+function registerRecognitionStart() {
+  recognition.onstart = function () {
+    todotInput.placeholder = "Listening..";
+    setTimeout(() => {
+      registerRecognitionEnd();
+    }, 5000);
+  };
+};
+
+function registerRecognitionEnd() {
+  todotInput.placeholder = "";
+  recognition.onspeechend = function () {
+    recognition.stop();
+  };
+};
+
+function registerRecognitionResult(callbackFn) {
+  recognition.onresult = function (event) {
+    const { transcript } = event.results[0][0];
+    callbackFn(transcript);
+  };
+};
+
+registerRecognitionStart();
+registerRecognitionEnd();
+registerRecognitionResult(function (val) {
+  todotInput.value = val;
+  todotInput.placeholder = "";
+});
