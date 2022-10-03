@@ -10,6 +10,12 @@ const addForm = document.getElementById("addForm");
 addbtn.addEventListener("click", addMe);
 todos.addEventListener("click",deleteCheck);
 
+function htmlEncode(str) {
+  return String(str).replace(/[^\w. ]/gi, function(c) {
+      return '&#' + c.charCodeAt(0) + ';';
+  });
+}
+
 function addMe(e) {
   e.preventDefault();
   //console.log("goat")
@@ -23,7 +29,7 @@ function addMe(e) {
     todoDiv.classList.add("todoDiv");
 
     let list = document.createElement("li");
-    list.innerHTML = todotInput.value;
+    list.innerHTML = htmlEncode(todotInput.value);
     list.classList.toggle("fish");
 
     todoDiv.appendChild(list);
