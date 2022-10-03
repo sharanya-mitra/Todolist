@@ -14,6 +14,11 @@ Contributing to a project on Github is pretty straight forward. If this is you'r
 
 **1. Fork the repository to your account and make clone of it.**
 
+![fork](https://user-images.githubusercontent.com/62185337/193636580-1d3503b0-3b0d-47ce-a138-d712bcd1d0a9.png)
+**2. To clone the forked repository**
+
+![gitClone](https://user-images.githubusercontent.com/62185337/193636646-9dc9691d-2791-4c40-81e6-75c73eb7a185.png)
+
 - to fork the repository follow this [tutorial.](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/)
 - to clone the repository follow this [tutorial.](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
