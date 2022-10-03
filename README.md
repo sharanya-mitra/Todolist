@@ -7,24 +7,53 @@ A straightforward web application, allowing you to save your daily chores so you
 </div>
 <br>
 
+# About the project.
+This project is a TODO list app, with nice animations. It allows the users to create, delete or modify tasks. The user can add planned tasks or delete tasks that are not needed. Also, the app has the ability to indicate if a task is completed or not, which is achieved by differentiated opacity between completed and pending tasks. 
+
+<br>
+<br>
+
 # Features
-- track you daily task
-- Opacity for finished work decreases
-- Delete button for completed works
-- button to add new tasks.
-- lovely animation
+- Track you daily tasks
+- Add new tasks
+- Mark tasks as Completed 
+- Delete Completed tasks
+- Add voice notes to be appear as tasks
+- Lovely animations to enhance user experience
 
 <br>
 <br>
 
 # Technologies
-- CSS
-- Java script
 - HTML
+- Javascript
+- CSS
 
 <br>
 <br>
 
- # about the project.
-This project is a TODO list app, with nice animations and has the ability to indicate if a task is completed or not,by reducing the opacity of the completed task, while the trash button is used delete task that are not needed.
-The add button is to add task to the page .
+# Check out the application
+Find the application runnning at:
+https://rick-mad-lab.github.io/Todolist/
+
+<br>
+<br>
+
+# How to Run the project locally
+To run the project locally,
+
+- Clone the project 
+- Browse to the project directory on your system.
+- Open index.html
+
+You'll find the project running in your browser.. Enjoy!
+
+<br>
+<br>
+
+# Contributing to this project
+We welcome all kinds of positive contributions helping us to improve and grow the project.
+
+If you wish to contribute, you can work on any issues [listed here](https://github.com/Rick-mad-lab/Todolist/issues) or create one on your own. After adding your code, please send us a Pull Request.
+
+> Please read [`CONTRIBUTING`](CONTRIBUTING.md) and [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md) to understand the process for submitting pull requests to us and comply to code of conduct.
