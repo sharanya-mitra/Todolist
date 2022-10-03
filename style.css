@@ -3,10 +3,10 @@ body {
   font-size: 16px;
   color: #e5e0e0;
   background-image: linear-gradient(to bottom, #655d8a 30%, #7897ab 70%);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 main {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
@@ -30,7 +30,7 @@ form {
   align-items: center;
   margin-left: 60px;
 }
-.toggle-dark{
+.toggle-dark {
   display: block;
   width: 100px;
   padding: 15px;
@@ -38,11 +38,13 @@ form {
   border-radius: 5px;
   border: none;
 }
-.dark-mode{
+.dark-mode {
   background-image: linear-gradient(to bottom, #403f42 30%, #1b80c3 70%);
   color: red;
 }
-.toggle-dark:hover {background-color: #8e3e75}
+.toggle-dark:hover {
+  background-color: #8e3e75;
+}
 
 .toggle-dark:active {
   background-color: #b736d4;
@@ -92,6 +94,26 @@ form {
 
 .fish {
   flex: 1;
+  max-width: 18rem;
+  min-height: fit-content;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.fish::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+  .fish {
+    max-width: 12rem;
+  }
+}
+@media screen and (min-width: 720px) {
+  .fish {
+    max-width: 20rem;
+  }
 }
 
 .done {
@@ -144,10 +166,10 @@ li {
   padding-left: 20px;
   text-transform: capitalize;
 }
-.invisible{
+.invisible {
   display: none;
 }
-.editInput{
+.editInput {
   height: 45px;
   padding: 1px 20px;
   outline-color: #073664;
@@ -155,8 +177,8 @@ li {
   font-size: 16px;
   border: none;
   border-radius: 20px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
-.beingEdited{
-  box-shadow:0px 0px 3px 3px lightblue;
+.beingEdited {
+  box-shadow: 0px 0px 3px 3px lightblue;
 }
