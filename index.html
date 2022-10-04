@@ -12,23 +12,24 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/8c162ff673.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <button class="toggle-dark" onclick="dark()">Dark Mode</button>
+  <button class="toggle-dark" onclick="dark()"><i class="fa-sharp fa-solid fa-moon"></i></button>
   <main>
     <section>
       <header>
-        <h3>Sharanya's todo list</h3>
+        <h2>Sharanya's todo list</h2>
       </header>
 
       <form id="addForm">
         <input type="text" class="todoInput" />
-        <button class="btn add"><img src="./images/plus.png" alt="" /></button>
+        <button class="btn add"><i class="fa-solid fa-circle-plus"></i></button>
       </form>
       <form id="editForm" class="invisible">
         <input type="text" class="editInput" placeholder="Edit Task" />
-        <button class="add" id="editBtn" type="button"><img src = './images/check.png' ></button>
+        <button class="add" id="editBtn" type="button"><i class="fa-sharp fa-solid fa-circle-check"></i></button>
       </form>
       <p class="err-msg">Please enter a todo item!</p>
       <div class="todoContainer">
