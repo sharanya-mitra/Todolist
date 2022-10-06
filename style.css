@@ -44,8 +44,9 @@ form {
 }
 
 .dark-mode {
-  background-image: linear-gradient(to bottom, #403f42 30%, #1b80c3 70%);
-  color: red;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  color: white;  
 }
 
 .toggle-dark:hover {
