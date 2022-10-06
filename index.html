@@ -18,23 +18,23 @@
 <body>
   <button class="toggle-dark" onclick="dark()"><i class="fa-sharp fa-solid fa-moon"></i></button>
   <main>
-    <section>
-      <header>
-        <h2>Sharanya's todo list</h2>
-      </header>
-
+    <section>   
+      <div class="wrapper">
+      <h2>Sharanya's Todo list</h2>
       <form id="addForm">
-        <input type="text" class="todoInput" />
+        <input type="text" class="todoInput" placeholder="Add yout to do list"/>
         <button class="btn add"><i class="fa-solid fa-circle-plus"></i></button>
       </form>
       <form id="editForm" class="invisible">
         <input type="text" class="editInput" placeholder="Edit Task" />
         <button class="add" id="editBtn" type="button"><i class="fa-sharp fa-solid fa-circle-check"></i></button>
       </form>
+      <h4>Your Task:</h4>
       <p class="err-msg">Please enter a todo item!</p>
       <div class="todoContainer">
         <ul class="todos"></ul>
       </div>
+    </div>
     </section>
   </main>
 
