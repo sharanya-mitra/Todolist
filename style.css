@@ -67,7 +67,7 @@ form {
   border: none;
   border-radius: 20px;
   margin-right: 10px;
-  
+  margin-left: -80px;
 }
 
 .add {
@@ -196,4 +196,5 @@ li {
   backdrop-filter: blur(14px);
   background-color: rgba(255, 255, 255, 0.2);
   padding-top: initial;
+  height: fit-content;
 }
