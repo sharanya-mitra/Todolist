@@ -3,8 +3,10 @@
 body {
   font-size: 16px;
   color: #e5e0e0;
-  background-image: linear-gradient(to bottom, #655d8a 30%, #7897ab 70%);
+  background-image: url(https://media.istockphoto.com/photos/to-do-list-text-on-notepad-picture-id1285308242?b=1&k=20&m=1285308242&s=170667a&w=0&h=K-UO77yYEQAKjRNLhgXADlyRIqrPkB8sC-4mKcyMgC4=);
   font-family: 'Poppins', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -42,11 +44,38 @@ form {
   border: none;
   float: right;
 }
+.button {
+  border: none;
+  color: lightpink;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 5px;
+  position:relative; 
+  left:100px;
+   top:1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: lightpink;
+  color: black;
+  border: 2px solid lightsalmon;
+}
+
+.button1:hover {
+  background-color: #b56926;
+  color: white;
+}
 
 .dark-mode {
   background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: url(https://c0.wallpaperflare.com/preview/34/705/139/tasks-plan-target-list.jpg);
   color: white;  
+}
+.btn-download{
+  margin: 5% 3% 5% 0;
 }
 
 .toggle-dark:hover {
