@@ -34,6 +34,9 @@ form {
   margin-left: 60px;
 }
 
+#your-tasks {
+  font-size: 20px;
+}
 .toggle-dark {
   display: block;
   padding: 15px;
