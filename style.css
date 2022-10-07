@@ -92,19 +92,18 @@ form {
 .todoInput {
   height: 45px;
   padding: 1px 20px;
-  outline-color: #073664;
-  outline-width: 2px;
   font-size: 16px;
   border: none;
   border-radius: 20px;
   margin-right: 10px;
+  margin-left: -80px;
 }
 
 .add {
   font-size: 38px;
   border: none;
   color: #1b80c3;
-  background: white;
+  
   border-radius: 10px;
 }
 
@@ -212,4 +211,19 @@ li {
 
 .beingEdited {
   box-shadow: 0px 0px 3px 3px lightblue;
+}
+
+.wrapper{
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding: 25px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 300px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: initial;
+  height: fit-content;
 }
