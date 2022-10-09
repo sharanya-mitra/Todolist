@@ -34,6 +34,9 @@ form {
   margin-left: 60px;
 }
 
+#your-tasks {
+  font-size: 20px;
+}
 .toggle-dark {
   display: block;
   padding: 15px;
@@ -74,7 +77,6 @@ form {
   font-size: 38px;
   border: none;
   color: #1b80c3;
-  
   border-radius: 10px;
 }
 
@@ -85,6 +87,12 @@ form {
 
 .add:hover {
   cursor: pointer;
+  }
+
+.add:active {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  scale: 0.9;
 }
 
 .todoDiv {
