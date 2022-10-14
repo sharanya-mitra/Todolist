@@ -5,6 +5,7 @@ body {
   color: #e5e0e0;
   background-image: linear-gradient(to bottom, #655d8a 30%, #7897ab 70%);
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
 
 main {
@@ -12,6 +13,15 @@ main {
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
+}
+.container{
+  text-align: center;
+  width: 100%;
+  /* height: 100vh; */
+
+  padding-top: 50px;
+  /* display: flex;
+  justify-content: center; */
 }
 
 section {
