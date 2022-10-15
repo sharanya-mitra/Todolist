@@ -14,11 +14,30 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/8c162ff673.js" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <button class="toggle-dark" onclick="dark()"><i class="fa-sharp fa-solid fa-moon"></i></button>
-  <main>
+  
+  <nav class="navbar" style="background-color: rgba(255, 255, 255, 0.882);">
+    <a class="navbar-brand"  href="#">Todolist</a>
+    <div class="text-right" style="align-items: center;">
+      <button class="btn-lg" style="border: none">
+        <span class="ml-auto"><i class="fa-solid fa-right-to-bracket"></i></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <button class="toggle-dark" onclick="dark()"><i class="fa-sharp fa-solid fa-moon"></i></button>
     <section>   
       <div class="wrapper">
       <h2>Sharanya's Todo list</h2>
