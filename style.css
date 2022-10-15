@@ -121,6 +121,27 @@ form {
 
 .fish {
   flex: 1;
+  max-width: 18rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  min-height: fit-content;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.fish::-webkit-scrollbar {
+  width: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .fish {
+    max-width: 12rem;
+  }
+}
+@media screen and (min-width: 720px) {
+  .fish {
+    max-width: 20rem;
+  }
 }
 
 .done {
