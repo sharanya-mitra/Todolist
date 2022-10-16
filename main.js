@@ -19,7 +19,7 @@ function htmlEncode(str) {
 function addMe(e) {
   e.preventDefault();
   //console.log("goat")
-  if (todotInput.value == "") {
+  if (todotInput.value.trim() == "") {
     errorMsg.style.display = "block";
     setTimeout(() => {
       errorMsg.style.display = "none";
@@ -82,7 +82,7 @@ function deleteCheck(e) {
     addForm.classList.add('invisible');
     editForm.classList.remove('invisible');
     editbtn.addEventListener('click',()=>{
-      if (editInput.value == "") {
+      if (editInput.value.trim() == "") {
         errorMsg.style.display = "block";
         setTimeout(() => {
           errorMsg.style.display = "none";
