@@ -46,6 +46,7 @@ form {
 
 #your-tasks {
   font-size: 20px;
+  padding-top: 30px;
 }
 .toggle-dark {
   display: block;
@@ -59,7 +60,7 @@ form {
 .dark-mode {
   background-color: #FF3CAC;
   background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-  color: white;  
+  color: white;
 }
 
 .toggle-dark:hover {
@@ -83,6 +84,10 @@ form {
   margin-left: -80px;
 }
 
+#addForm{
+  padding-top: 30px;
+}
+
 .add {
   font-size: 38px;
   border: none;
@@ -90,9 +95,26 @@ form {
   border-radius: 10px;
 }
 
+.add:hover{
+  background-color: #0000ff;
+}
+
+.card {
+    border: 1px solid #999;
+    border-radius: 3px;
+    height: 200px;
+    width: 500px;
+    box-shadow: 0 8px 12px 0 lightblue, 0 6px 20px 0 lightblue;
+}
+
+.card:hover{
+  background-color: lightblue;
+}
+
 .todos {
   padding: 15px 0px;
   list-style: none;
+  text-align: center;
 }
 
 .add:hover {
@@ -194,8 +216,10 @@ img {
 .err-msg {
   display: none;
   font-weight: bolder;
+  font-size: 20px;
   color: white;
-  margin-left: 70px;
+  /* margin-left: 50px; */
+  text-align: center;
 }
 
 li {
