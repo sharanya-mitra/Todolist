@@ -27,31 +27,31 @@
 
 <body>
 
-  <nav class="navbar" style="background-color: rgba(255, 255, 255, 0.882);">
-    <a class="navbar-brand"  href="#">Todolist</a>
+  <nav class="navbar" >
+    <a class="navbar-brand brand-name"  href="#"><img src="images/favicon.png" alt="Brand-iamge" class="brand-image">   Todolist </a>
     <div class="text-right" style="align-items: center;">
-      <button class="btn-lg" style="border: none">
-        <span class="ml-auto"><i class="fa-solid fa-right-to-bracket"></i></span>
+      <button class="btn-lg top-right-btn" style="border: none">
+        <span class="ml-auto"><i class="fa-solid fa-right-to-bracket top-right-icon"></i></span>
       </button>
     </div>
   </nav>
 
-  <main class="container">
-    <button class="toggle-dark" onclick="dark()"><i class="fa-sharp fa-solid fa-moon"></i></button>
+  <main class="container ">
+    <button class="toggle-dark drk-btn" onclick="dark()"><i class="fa-sharp fa-solid fa-moon"></i></button>
     <section>
 
-        <div class="card wrapper">
-        <h2>Sharanya's Todo list</h2>
+        <div class="card wrapper main-card ">
+        <h2 class="card-title">Sharanya's To-do list</h2>
         <form id="addForm">
-          <input type="text" class="todoInput" placeholder="Add your new to do"/>
+          <input type="text" class="todoInput input1" placeholder="Add your new to do"/>
           <button class="btn add"><i class="fa-solid fa-circle-plus"></i></button>
         </form>
         <form id="editForm" class="invisible">
           <input type="text" class="editInput" placeholder="Edit Task" />
-          <button class="add" id="editBtn" type="button"><i class="fa-sharp fa-solid fa-circle-check"></i></button>
+          <button class="add add-bttn" id="editBtn" type="button"><i class="fa-sharp fa-solid fa-circle-check check"></i></button>
         </form>
-        <h4 id="your-tasks">Your Tasks:</h4>
-        <p class="err-msg">Please enter a todo item!</p>
+        <h4 id="your-tasks">Your Tasks :</h4>
+        <p class="err-msg">Please enter a to-do item!</p>
         <div class="todoContainer">
           <ul class="todos"></ul>
         </div>
