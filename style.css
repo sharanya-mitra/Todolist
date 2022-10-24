@@ -54,9 +54,12 @@ form {
   display: block;
   padding: 15px;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   float: right;
+  background-color: #60a0b7;
+  font-size: 22px;
+  box-shadow: 2px 2px 13px rgb(19.17,17);
 }
 
 .dark-mode {
@@ -70,10 +73,11 @@ form {
 .toggle-dark:hover {
   background-color: #8e3e75;
   cursor: pointer;
+  transform: scale(1.08);
 }
 
 .toggle-dark:active {
-  background-color: #b736d4;
+  background-color: #b736d4 !important;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

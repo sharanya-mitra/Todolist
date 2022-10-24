@@ -100,5 +100,16 @@ function deleteCheck(e) {
 
 function dark(){
  var elem= document.body;
-elem.classList.toggle("dark-mode")
+elem.classList.toggle("dark-mode");
+var mode = document.getElementById("mode");
+if(mode.classList == "fa-sharp fa-solid fa-moon")
+{
+    mode.classList.add("fa-sun");
+    mode.classList.remove("fa-moon");
+}
+else
+{
+ mode.classList.toggle("fa-moon");
+ mode.classList.remove("fa-sun");
+}
 }
