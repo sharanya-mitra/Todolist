@@ -7,14 +7,14 @@ body {
   background: rgb(2,0,36);
   background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgb(92, 92, 187) 19%, rgba(0,212,255,1) 100%); 
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  height: auto;
 }
 .container{
   text-align: center;
@@ -375,4 +375,56 @@ font-family: 'Scope One', serif;
 .err-msg{
   padding-top: 8rem;
   color: #000;
+}
+
+.footer{
+  height: 150px;
+  width:100%;
+  text-align: center;
+  background-color: white;
+}
+.social{
+  font-size: 30px;
+  color: #fcfcfc;
+  float: right;
+  margin-right: 15px;
+  margin-top: -35px;
+  background: #000;
+  padding:4px 10px ;
+  border-radius: 70%;
+}
+.brand{
+  margin-top: -20px;
+  width: 60px;
+  height: 60px;
+}
+#linkedin:hover{
+  color: #fcfcfc;
+  background-color: #04669A;
+}
+#github:hover{
+  color: #fcfcfc;
+  background-color: #000;
+}
+#twitter:hover{
+  color: #fcfcfc;
+  background-color: #00acee;
+}
+#insta:hover{
+  color: #fcfcfc;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.span{
+  font-size: 18px;
+}
+.footer-desc{
+  font-size: 12px;
+  margin-top: 5px;
 }
