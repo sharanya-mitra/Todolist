@@ -378,7 +378,7 @@ font-family: 'Scope One', serif;
 }
 
 .footer{
-  height: 150px;
+  height: 200px;
   width:100%;
   text-align: center;
   background-color: rgba(255, 255, 255, .15);  
@@ -395,8 +395,15 @@ font-family: 'Scope One', serif;
   padding:4px 10px ;
   border-radius: 70%;
 }
+
 .footer-desc a{
   color: #0000ff;
+
+.footer-social{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: 40px;
 }
 .brand{
   margin-top: -20px;
