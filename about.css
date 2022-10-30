@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap');
+
+* {  
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none; 
+  }
+
+body {
+
+    background-size: 4000% 4000%;
+    border-image-repeat: no-repeat;
+    animation: gradient 15s ease infinite;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .abt {
+    color: #FFF;
+    text-decoration: none;
+  }
+.about-container{
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 1.5em;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 20px 40px;
+}
+
+.about-container img{
+    height: 200px;
+    width: 300px;
+}
+.line {
+    width: 110px;
+    height: 2px;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.desc {
+    color: #FFF;
+}
+
+.about-btn{
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 0.8em;
+    background-color: white;
+    color: black
+}
+
+button:hover{
+    background-color: #23d5ab;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.253);
+    transition: 0.5s ease;
+}
+
+@media(max-width:800px)
+{
+  .about-container{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media(max-width:680px)
+{
+  .about-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+@media(max-width:550px)
+{
+  .about-container{
+    width: 38rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

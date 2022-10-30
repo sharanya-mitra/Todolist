@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Todolist</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+  <!-- HTML -->
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css"/>
+  <script src="https://kit.fontawesome.com/8c162ff673.js" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" >
+    <a class="navbar-brand brand-name"  href="#"><img src="images/favicon.png" alt="Brand-iamge" class="brand-image">   Todolist </a>
+    <div class="text-right" style="align-items: center;">
+        <ul class="navbar-nav mr-auto" style="margin-top: 18px;">
+            <li class="nav-item active "  >
+              <a class="home nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="home nav-link" href="about.html">ABOUT <span class="sr-only"></span></a>
+            </li>
+          </ul>
+      <button class="btn-lg top-right-btn" style="border: none">
+        <span class="ml-auto"><i class="fa-solid fa-right-to-bracket top-right-icon"></i></span>
+      </button>
+    </div>
+  </nav>
+
+    <button class="toggle-dark drk-btn" onclick="dark()"><i id="mode" class="fa-sharp fa-solid fa-moon"></i></button>
+    <div class="about-container">
+        <div class="about-box">
+          <div class="about-img">
+            <img src="/images/4380.jpg" alt="">
+          </div>
+          <h1 class="abt">About</h1>
+        <div class="line"></div>
+
+        <p class="desc" style="color:lightyellow">
+            Having a list of everything you need to do written down in one place means you shouldn’t forget anything important. By prioritising the tasks in the list you plan the order in which you’re going to do them and can quickly see what needs your immediate attention and what tasks you can leave until a little later.</p>
+            <p style="color:lightyellow">Features of this application :
+          <ol style="color:lightyellow">
+
+          Add your tasks,
+          Delete your completed tasks &
+          Edit your tasks.
+          </ol>
+
+        </p>
+        <a href="/">
+            <button type="button" class="about-btn">Get Started !</button>
+        </a>
+        </div>
+        
+      </div>
+
+</body>
+</html>
