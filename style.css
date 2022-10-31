@@ -163,7 +163,7 @@ form {
   width: 5px;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .fish {
     max-width: 12rem;
   }
@@ -172,7 +172,7 @@ form {
   .fish {
     max-width: 20rem;
   }
-}
+} */
 
 .done {
   background-color: transparent;
@@ -398,7 +398,7 @@ font-family: 'Scope One', serif;
 
 .footer-desc a{
   color: #0000ff;
-
+}
 .footer-social{
   margin: auto;
   width: 100%;
@@ -439,4 +439,39 @@ font-family: 'Scope One', serif;
 .footer-desc{
   font-size: 12px;
   margin-top: 5px;
+}
+/* Navbar changes */
+ul li{
+  display: inline-block;
+}
+.item-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Responsive  */
+
+@media (max-width:775px) {
+   .header{
+    font-size: 15px;
+   }
+}
+@media (max-width:450px) {
+   .header{
+    font-size: 12px;
+    padding: 2px 2px 2px 1px;
+   }
+   .navbar-nav {
+    margin: 7.5px -48px;
+   }
+   .row{
+    font-size: 20px;
+   }
+   .brand{
+    width: 40px;
+    height: 40px;
+   }
+   .brand-name{
+    margin: 0;;
+   }
 }
